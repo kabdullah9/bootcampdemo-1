@@ -1,0 +1,108 @@
+(aind) Jamess-MBP-2:AIND-Planning-master 2 gLestrade$ cat cargo_planning-result-209675.json
+{
+    "critiques": {
+        "681": {
+            "rubric_items": {
+                "5519": {
+                    "result": "failed",
+                    "observation": "Not all of the tests passed.
+                    
+                    ```
+                    ************************************************************************
+                                             Test Failure Feedback                          
+                    ************************************************************************
+                    
+                    Failed Test: Action levels have the correct number of actions
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    Failed Test: Literal levels have the correct number of literals
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    Failed Test: competing_needs_mutex behaves correctly
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    Failed Test: inconsistent_effects_mutex behaves correctly
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    Failed Test: inconsistent_support_mutex behaves correctly
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    Failed Test: interference_mutex behaves correctly
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    Failed Test: negation_mutex behaves correctly
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    Failed Test: Serialization of mutexes is correct
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    Failed Test: levelsum heuristic behaves correctly
+                    ----------------------------------------------------------------------
+                    IndexError: list index out of range
+                    
+                    
+                    ************************************************************************
+                                              Test Result Summary                           
+                    ************************************************************************
+                    
+                    Action levels have the correct number of actions:                      E
+                    Literal levels have the correct number of literals:                    E
+                    competing_needs_mutex behaves correctly:                               E
+                    inconsistent_effects_mutex behaves correctly:                          E
+                    inconsistent_support_mutex behaves correctly:                          E
+                    interference_mutex behaves correctly:                                  E
+                    negation_mutex behaves correctly:                                      E
+                    Serialization of mutexes is correct:                                   E
+                    levelsum heuristic behaves correctly:                                  E
+                    AirCargoProblem implements the ignore preconditions heuristic:         .
+                    ------------------------------------------------------------------------            
+                    . - Test Passed    F - Test Failed    E - Error             \n\n```"
+                },
+                "5516": {
+                    "result": "passed",
+                    "observation": "```
+                    
+                    ************************************************************************
+                                              Test Result Summary                           
+                    ************************************************************************
+                    air_cargo_p1 returns the correct initial fluents:                      .\n
+                    air_cargo_p1 returns the correct goal fluents:                         .\n
+                    air_cargo_p1 returns an object of type problem:                        .\n
+                    air_cargo_p1 returns the correct initial values:                       .\n
+                    air_cargo_p2 returns the correct initial fluents:                      .\n
+                    air_cargo_p2 returns the correct goal fluents:                         .\n
+                    air_cargo_p2 returns an object of type problem:                        .\n
+                    air_cargo_p2 returns the correct initial values:                       .\n
+                    air_cargo_p3 returns the correct initial fluents:                      .\n
+                    air_cargo_p3 returns the correct goal fluents:                         .\n
+                    air_cargo_p3 returns an object of type problem:                        .\n
+                    air_cargo_p3 returns the correct initial values:                       .\n
+                    AirCargoProblem correctly lists possible actions in a given state:     .\n
+                    AirCargoProblem correctly constructs all possible actions:             .\n
+                    AirCargoProblem correctly updates state for a given action:            .\n
+                    AirCargoProblem yields a correct solution when input to breadth_first: .\n
+                    \n------------------------------------------------------------------------
+                    \n            . - Test Passed    F - Test Failed    E - Error             \n
+                    \n
+                    \n
+                    ```"
+                }
+            }
+        }
+    }
